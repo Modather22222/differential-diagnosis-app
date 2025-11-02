@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Differential Diagnosis Assistant</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Differential Diagnosis Assistant</h1>
+        <div class="input-section">
+            <label for="symptom-input">Enter Symptoms (comma-separated):</label>
+            <input type="text" id="symptom-input" placeholder="e.g., fever, cough, headache">
+            <div id="selected-symptoms" class="selected-symptoms-container"></div>
+            <button id="search-button">Search</button>
+        </div>
+        <div class="results-section">
+            <h2>Possible Diagnoses:</h2>
+            <ul id="diagnosis-list"></ul>
+        </div>
+        <div class="details-section">
+            <h2>Diagnosis Details:</h2>
+            <div id="diagnosis-details"></div>
+        </div>
+    </div>
+    </div>
+    <div class="disclaimer-section">
+        <p><strong>Disclaimer:</strong> This app is for educational and assistive purposes only and should not replace clinical judgment or official medical guidelines.</p>
+    </div>
+    <script src="/static/script.js"></script>
+</body>
+</html>

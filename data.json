@@ -1,0 +1,56 @@
+[
+    {
+        "id": "1",
+        "name": "Common Cold",
+        "symptoms": ["runny nose", "sore throat", "cough", "sneezing", "fatigue"],
+        "description": "A viral infectious disease of the upper respiratory tract that primarily affects the nose.",
+        "tests": ["Clinical diagnosis"],
+        "management": ["Rest", "Fluids", "Over-the-counter medications"],
+        "source": "NICE Guideline"
+    },
+    {
+        "id": "2",
+        "name": "Influenza (Flu)",
+        "symptoms": ["fever", "cough", "sore throat", "muscle aches", "fatigue", "headache"],
+        "description": "A common viral infection that can be deadly, especially in high-risk groups.",
+        "tests": ["Rapid influenza diagnostic tests", "PCR"],
+        "management": ["Antiviral medications", "Rest", "Fluids"],
+        "source": "WHO Guidelines"
+    },
+    {
+        "id": "3",
+        "name": "Streptococcal Pharyngitis (Strep Throat)",
+        "symptoms": ["sore throat", "fever", "swollen lymph nodes", "white patches on tonsils", "headache"],
+        "description": "A bacterial infection of the throat and tonsils.",
+        "tests": ["Rapid strep test", "Throat culture"],
+        "management": ["Antibiotics"],
+        "source": "NICE Guideline"
+    },
+    {
+        "id": "4",
+        "name": "Urinary Tract Infection (UTI)",
+        "symptoms": ["painful urination", "frequent urination", "urgent urination", "lower abdominal pain", "cloudy urine"],
+        "description": "An infection in any part of your urinary system — your kidneys, ureters, bladder and urethra.",
+        "tests": ["Urinalysis", "Urine culture"],
+        "management": ["Antibiotics", "Pain relievers"],
+        "source": "NICE Guideline"
+    },
+    {
+        "id": "5",
+        "name": "Acute Gastroenteritis",
+        "symptoms": ["nausea", "vomiting", "diarrhea", "abdominal cramps", "fever"],
+        "description": "An inflammation of the gastrointestinal tract—the stomach and small intestine—that results in some combination of diarrhea, vomiting, and abdominal pain.",
+        "tests": ["Clinical diagnosis", "Stool culture (if severe)"],
+        "management": ["Fluid replacement", "Antiemetics", "Antidiarrheals"],
+        "source": "WHO Guidelines"
+    },
+    {
+        "id": "6",
+        "name": "Migraine",
+        "symptoms": ["severe headache", "pulsating headache", "nausea", "vomiting", "sensitivity to light", "sensitivity to sound"],
+        "description": "A primary headache disorder characterized by recurrent headaches that are moderate to severe.",
+        "tests": ["Clinical diagnosis"],
+        "management": ["Pain relievers", "Triptans", "Lifestyle changes"],
+        "source": "NICE Guideline"
+    }
+]
